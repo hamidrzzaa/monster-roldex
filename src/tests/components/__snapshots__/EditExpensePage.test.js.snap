@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the component correctly 1`] = `
+<div>
+  <React.Memo
+    expense={
+      Object {
+        "amount": 2000,
+        "createdAt": 345600000,
+        "description": "anashid face",
+        "id": "31",
+        "note": "beautiful face",
+      }
+    }
+    onSubmit={[Function]}
+  />
+  <button
+    onClick={[Function]}
+  >
+    Remove
+  </button>
+</div>
+`;
