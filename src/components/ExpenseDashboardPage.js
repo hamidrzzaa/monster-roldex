@@ -6,7 +6,7 @@ export const ExpenseDashboardPage = () => {
   return (
     <div>
       <ExpenseListFilter />
-      <ExpenseListFilter />
+      <ExpenseList />
     </div>
   );
 };
