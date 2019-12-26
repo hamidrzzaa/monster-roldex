@@ -3,15 +3,16 @@
 exports[`should render a single list item 1`] = `
 <div>
   <h3>
+    Description: 
     wolf
   </h3>
   <p>
-    1200
+    Amount: 
+    $1,200.00
   </p>
   <p>
-    3
-    :
-    30
+    Created At: 
+    January 1st 1970
   </p>
   <button>
      

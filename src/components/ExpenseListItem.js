@@ -1,16 +1,14 @@
 import React from "react";
 import { removeExpense } from "../actions/expenses";
 import { Link } from "react-router-dom";
+import moment from "moment";
+import numeral from "numeral";
 export const ExpenseListItem = props => {
-  const date = new Date(props.createdAt);
-
   return (
     <div>
-      <h3>{props.description}</h3>
-      <p>{props.amount}</p>
-      <p>
-        {date.getHours()}:{date.getMinutes()}
-      </p>
+      <h3>Description: {props.description}</h3>
+      <p>Amount: {numeral(props.amount).format("$0,0.00")}</p>
+      <p>Created At: {moment(props.createdAt).format("MMMM Do YYYY")}</p>
 
       <button>
         {" "}
