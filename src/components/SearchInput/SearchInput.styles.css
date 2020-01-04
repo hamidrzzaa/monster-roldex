@@ -1,0 +1,24 @@
+.search-input {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.search-input input {
+  border: none;
+  border-bottom: 2px solid rgb(173, 221, 155);
+  outline: none;
+  padding: 15px;
+  transition: border-bottom 0.3s ease-in;
+  color: rgb(154, 100, 224);
+}
+
+.search-input input::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(154, 100, 224);
+}
+
+.search-input input:focus {
+  border-bottom: 2px solid rgb(62, 163, 211);
+}
